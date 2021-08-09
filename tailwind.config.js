@@ -8,7 +8,7 @@ module.exports = {
        'to-sea': 'rgba(91,175,198,1)',
      }),
     backgroundPosition: {
-        'top-main': 'top 14rem left 52vw',
+        'top-main': 'top 0 left 0',
         'body-bg': 'top left, top 190% left',
      },
      backgroundColor: theme => ({
@@ -28,6 +28,27 @@ module.exports = {
         '2xl': '1536px',
     },
     extend: {
+      keyframes: {
+        'fade-in-down': {
+          '0%': {
+              opacity: '0',
+              transform: 'translateY(-600px)'
+          },
+          '80%':  {
+            transform: 'translateY(30px)'
+          },
+          '95%':  {
+            transform: 'translateY(-5px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        },
+      },
+      animation: {
+          'fade-in-down': 'fade-in-down 0.4s ease-in'
+      },
       fontFamily: {
         'sans': 'Poppins, sans-serif',
       },
@@ -54,7 +75,7 @@ module.exports = {
       },
       height: {
         60: '60rem',
-        83: '83rem',
+        83: '64rem',
       },
       borderWidth: ['last'],
       width: {
