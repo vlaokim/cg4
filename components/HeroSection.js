@@ -2,9 +2,9 @@ import Link from 'next/link'
 export default function HeroSection() {
   return (
     <>
-    <div className="bg-main-img bg-no-repeat h-83 w-full bg-top-main absolute left-0 top-0 hidden lg:block z-10"></div>
+    <div className="bg-main-img overflow-hidden mt-48 w-2/4 left-2/4 transform hover:scale-105 transition duration-700 bg-no-repeat h-83 bg-top-main absolute left-0 top-0 hidden lg:block z-10 animate-fade-in-down"></div>
     <div className="container">
-      <section className="mt-16 lg:grid lg:grid-cols-2 z-20 relative">
+      <section className="mt-16 lg:w-2/4 z-20 relative">
         <div>
           <h1 className="bg-gradient-to-br from-green-400 to-blue-400 text-transparent bg-clip-text text-3xl xs2:text-4.5xl sm:text-5.5xl md:text-6xl xl:text-7xl sm:mt-16 md:mt-7 leading-none font-bold mb-9">
             VOICES OF THE CRYPTOVERSE:<br />WE NEED YOU
