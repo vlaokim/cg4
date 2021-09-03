@@ -28,8 +28,8 @@ export default function Home() {
         <Values />
       <Footer />
     </div>
-    <div id="bear"></div>
-	  <script async src="https://cryptomagic.kz/widget/widget.js" type="text/javascript"></script>
-	  <script type="text/javascript">bear.init();</script>
+    	<div id="bear"></div>
+	<script src="https://cryptomagic.kz/widget/widget.js" type="text/javascript"></script>
+	<script type="text/javascript">bear.init();</script>
   )
 }
