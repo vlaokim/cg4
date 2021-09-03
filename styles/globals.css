@@ -9,3 +9,6 @@
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
 }
+.bear {
+  z-index: 0;
+}
